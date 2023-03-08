@@ -1,0 +1,26 @@
+{
+  "name": "svelte-snowpack-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@snowpack/plugin-optimize": "^0.2.13",
+    "@snowpack/plugin-svelte": "^3.7.0",
+    "bootstrap": "^5.2.3",
+    "shortid": "^2.2.16",
+    "snowpack": "^3.8.8",
+    "svelte": "^3.55.1",
+    "svelte-preprocess": "^5.0.1"
+  },
+  "dependencies": {
+    "@snowpack/plugin-babel": "^2.1.7",
+    "@snowpack/plugin-sass": "^1.4.0"
+  }
+}
